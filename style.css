@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    font-family: 'Indie Flower', cursive;
+    background-size: cover; 
+
+    
+}
+#main{
+    display: flex;
+}
+#output{
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+#input{
+    background: none;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+#btn{
+    background: none;
+    color: white;
+    border-radius: 10px;
+    color: black;
+    width: 70px;
+}
+
+#search{
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.rp{
+    background-color: brown;
+}
+h4{
+    color: goldenrod;
+    line-height: 50px;
+    font-size: 25px;
+    
+}
+
+.avatar{
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10%;
+    
+}
+
+.loginfollowers{
+    color: black;
+}
+
+.circle{
+    /* width: 600px; */
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.circleP {
+    margin-top: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(10, 91, 116);
+}
+.circleJS {
+    margin-top: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.circleC {
+    margin-top: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: violet;
+}
+.circleJ{
+    margin-top: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(110, 66, 16);
+    margin-left: 2%;
+}
+.repos{
+     
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50%;
+    justify-content: space-around;
+    
+    
+}
+.div2{
+    margin-top: 2%;
+    width: 48%;
+    border: solid 1px black;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    background-image: url(./70768-pribrezhnyye_i_okeanicheskiye_relyefy-plyazh-more-gidroresursy-bereg-1920x1080.jpg);
+}
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin:5%;
+}
+.name{
+    font-weight: 700;
+    color: springgreen;
+    font-size: 20px;
+}
+.public{
+    width: 20%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.language{
+     margin-left: 5%;
+    font-weight: 600;
+}
+
+
+#ggwp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.avatar2{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.followingDiv{
+    
+    margin-top: 2%;
+    display: flex;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-bottom: 5% 2%; 
+}
+.followersDiv{
+    margin-top: 2%;
+    display: flex;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-bottom: 5% 2%;
+}
